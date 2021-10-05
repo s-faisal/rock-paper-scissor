@@ -78,18 +78,21 @@ h3 {
 }
 
 #rock,#rockCom {
+    background-image: url("../images/Artboard1.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 #paper,#paperCom {
+    background-image: url("../images/Artboard2.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 #scissors,#scissorsCom {
+    background-image: url("../images/Artboard3.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
