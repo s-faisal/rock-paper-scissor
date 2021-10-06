@@ -12,9 +12,9 @@
         <h2 id="score"></h2>
         <h3>Your Selection</h3>
         <div id="button-container">
-            <div class="button" id="rock"></div>
-            <div class="button" id="paper"></div>
-            <div class="button" id="scissors"></div>
+            <div class="button" id="rock" onclick="draw(this.id)"></div>
+            <div class="button" id="paper" onclick="draw(this.id)"></div>
+            <div class="button" id="scissors" onclick="draw(this.id)"></div>
         </div>
         <h3>Computer's Selection</h3>
         <div id="button-container-com">
@@ -23,5 +23,6 @@
             <div class="button-com disabled" id="scissorsCom"></div>
         </div>
     </div>
+    <script src="js/script.js"></script>
 </body>
 </html>
