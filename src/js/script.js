@@ -77,3 +77,7 @@ function printScore(){
     })
     document.getElementById('score').innerHTML = scoreStatus
 }
+
+function restart(){   
+    window.location.reload()
+}
