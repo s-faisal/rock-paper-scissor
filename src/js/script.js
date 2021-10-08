@@ -4,6 +4,7 @@ var score = {
     "user": 0
 }
 var gameStatus = ""
+printScore()
 
 function computerPlay() {
     const options = ['rock', 'paper', 'scissors']
