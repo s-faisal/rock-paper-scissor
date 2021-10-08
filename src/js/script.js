@@ -48,6 +48,20 @@ function clearAndSelect(selection, type){
     }
 }
 
+function addAnimation(){
+    var elements = document.querySelectorAll(".button-com");
+    elements.forEach(elem => {
+        elem.classList.add("animate");
+    })
+}
+
+function removeAnimation(){
+    var elements = document.querySelectorAll(".button-com");
+    elements.forEach(elem => {
+        elem.classList.remove("animate");
+    })
+}
+
 function printStatus(result){    
     if(result){
         document.getElementById('status').innerHTML = result
