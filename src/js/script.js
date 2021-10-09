@@ -12,6 +12,8 @@ function computerPlay() {
 }
 
 function draw(userSelection){
+    clearAndSelect(userSelection, "")
+    clearAndSelect("", "Com")
     addAnimation()
     setTimeout(()=>{
         play(userSelection)
