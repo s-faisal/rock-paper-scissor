@@ -2,7 +2,7 @@
 
 [Demo](https://s-faisal.github.io/rock-paper-scissor/src/)
 
-Simple HTML/JavaScript rock-paper-scissors game implementation without any external dependencies. It runs well on desktop devices.
+Simple HTML/JavaScript rock-paper-scissors game implementation without any external dependencies. It runs well on desktop and mobile devices.
 
 The game implementation tries to follow the standard [Rock-Paper-Scissors guidelines](https://en.wikipedia.org/wiki/Rock_paper_scissors).
 
